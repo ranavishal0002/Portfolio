@@ -1,0 +1,96 @@
+/* contact.css */
+
+#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    /* Adjust text color as needed */
+}
+
+.contactDesc {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+    /* Adjust text color and margin as needed */
+}
+
+.contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #3498db;
+    /* Professional color for the border on focus */
+}
+
+.submitBtn {
+    background-color: #3498db;
+    /* Professional color for the button */
+    color: #fff;
+    /* Text color on the button */
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+    background-color: #2980b9;
+    /* Darker shade on hover */
+}
+
+#contactSites {
+    background-color: #004D74;
+    /* Change the background color as needed */
+    padding: 20px;
+    /* Adjust padding as needed */
+    color: #fff;
+    /* Set text color to white or your preferred color */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* Align content to the right */
+    margin-top: 20px;
+    /* Add margin as needed */
+}
+
+.GitHub-img,
+.LinkedIn-img {
+    width: 30px;
+    /* Adjust the image size as needed */
+    height: 30px;
+    /* Adjust the image size as needed */
+    margin-left: 10px;
+    /* Change margin-left to margin-right */
+    /* Add margin between image and text */
+}
+.GitHub-img:hover,
+.LinkedIn-img:hover {
+    filter: brightness(1.5);
+    /* Adjust brightness on hover */
+}
+
+
+#contactMadeByText {
+    margin-right: 85%;
+}
